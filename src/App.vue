@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Vue.js App With Brandon Vergara WebRtc"/>
               <vue-webrtc ref="webrtc"
                       width="100%"
                       :roomId="roomId"
@@ -45,7 +45,7 @@ export default {
   data: function () {
     return {
       img: null,
-      roomId: "public-room"
+      roomId: "makingdevs-room"
     }
   },
   created: function(){
